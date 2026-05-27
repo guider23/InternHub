@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NEXT_PUBLIC_BACKEND_URL = "https://internhub-backend-2026-08dbdbd13eb6.herokuapp.com"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
